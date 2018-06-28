@@ -1,0 +1,59 @@
+.container {
+
+    background: #bcb4c6;
+    margin: 0 auto;
+}
+body{
+
+            padding-top: 35px;
+
+            padding-bottom: 40px;
+
+        }
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+.container2{
+			text-align:center;
+
+		}
+.fixed-header{
+
+      top: 0;
+
+      }
+
+.fixed-footer{
+
+      bottom: 0;
+
+      }
+.fixed-header, .fixed-footer{
+
+            width: 100%;
+
+            position: fixed;
+
+            background: #333;
+
+            color: #fff;
+
+}
+.div1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-color: red green blue yellow;
+    background-color: powderblue;
+
+}
+.div2{
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: solid;
+    border-color: red green blue yellow;
+    background-color: powderblue;
+}
