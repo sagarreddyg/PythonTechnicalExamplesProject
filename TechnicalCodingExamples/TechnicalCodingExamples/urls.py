@@ -21,5 +21,8 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'helloworld/$', views.helloworld, name='helloworld'),
     url(r'sum/$', views.sumofnum, name='sum'),
+    url(r'evennumbers/$', views.evenrange, name='evennumbers'),
+    url(r'additionofmatrix/$', views.additionofmatix, name='additionofmatrix'),
     url(r'^admin/', admin.site.urls),
+
 ]

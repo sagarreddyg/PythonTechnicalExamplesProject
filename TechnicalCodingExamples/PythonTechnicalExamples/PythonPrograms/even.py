@@ -1,17 +1,21 @@
+# even.py
 def gettinginput1():
-    num1 = int(input("enter your range from printing Even number's : "))
+    num1 = int(input("Enter your starting range : "))
     while num1 <= 0:
         print("Please enter number Positive and other than Zero ")
         num1 = gettinginput1()
     else:
         return num1
+
+
 def gettinginput2():
-    num2 = int(input("enter your range To printing Even number's : "))
+    num2 = int(input("Enter your ending range : "))
     while num2 <= 0:
         print("Please enter number Positive and other than Zero ")
         num2 = gettinginput2()
     else:
         return num2
+
 
 def inputfromuser():
     try:
@@ -30,10 +34,13 @@ def inputfromuser():
        inputfromuser()
     else:
        coun = 0
+       print("Even numbers: ", end="")
        for i in range(num01, num02 + 1):
            if i % 2 == 0:
                print(i, end=" ")
                coun += 1
        print("\nTotal number of Even numbers between {} to {} is {}".format(num01, num02, coun))
+
+
 inputfromuser()
 input()
