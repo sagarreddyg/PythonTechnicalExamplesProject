@@ -19,6 +19,7 @@ from PythonTechnicalExamples import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
+    url(r'python', views.python, name='python'),
     url(r'helloworld/$', views.helloworld, name='helloworld'),
     url(r'sum/$', views.sumofnum, name='sum'),
     url(r'evennumbers/$', views.evenrange, name='evennumbers'),

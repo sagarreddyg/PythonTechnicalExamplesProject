@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<header>
+  <h2 style="color:MediumSeaGreen;">Python Examples</h2>
+</header>
+<table>
+   <tr>
+       <td class="bor" width="20%" valign="top">
+           {% include 'examplelist.html' %}
+       </td>
+
+     <td width="58%">
+         <article>
+            {% block  content1 %}
+
+            {% endblock %}
+         </article>
+     </td>
+    </tr>
+</table>
+{% endblock %}

@@ -6,11 +6,9 @@
 }
 body{
 
-            padding-top: 35px;
-
-            padding-bottom: 40px;
-
-        }
+          padding-top: 35px;
+          padding-bottom: 40px;
+}
 .nav a {
     color: blue;
     text-decoration: none;
@@ -39,24 +37,30 @@ body{
             width: 100%;
 
             position: fixed;
-
-            background: #333;
-
-            color: #fff;
-
+            background-image: url("body-1.jpg");
+}
+.bor{
+     border: 1px solid Teal;
 }
 .div1 {
+
     margin-left: 20px;
     margin-right: 50px;
 
 }
 .div2{
+
     margin-left: 25px;
     margin-right: 50px;
     margin-bottom: 25px;
 }
-section:after {
+.section:after {
     content: "";
     display: table;
     clear: both;
+}
+.back{
+
+    background-image: url("body-1.jpg");
+    background-repeat: repeat;
 }

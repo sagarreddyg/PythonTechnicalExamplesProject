@@ -13,9 +13,13 @@ def index(request):
     return render(request, "PythonTechnicalExamples/index.html", context=home)
 
 
+def python(request):
+    return render(request, "PythonTechnicalExamples/aboutpython.html")
+
+
 def additionofmatix(request):
     mat = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/Add Of Matrices.py")}
-    return render(request, "PythonTechnicalExamples/index.html", context=mat)
+    return render(request, "PythonTechnicalExamples/addition of matrix.html", context=mat)
 
 
 def helloworld(request):
