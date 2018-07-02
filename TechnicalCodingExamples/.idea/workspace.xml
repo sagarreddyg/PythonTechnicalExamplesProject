@@ -11,32 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="examplelist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/examplelist.html">
+      <file leaf-file-name="Odd.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/Odd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TechnicalCodingExamples/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-              <folding>
-                <element signature="e#647#679#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -114,6 +93,12 @@
               <item name="TechnicalCodingExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="TechnicalCodingExamples" type="462c0819:PsiDirectoryNode" />
               <item name="PythonTechnicalExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TechnicalCodingExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TechnicalCodingExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonTechnicalExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonPrograms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TechnicalCodingExamples" type="b2602c69:ProjectViewProjectNode" />
@@ -275,15 +260,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="31" y="108" width="1291" height="598" extended-state="1" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978261" visible="true" weight="0.21069433" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978261" visible="true" weight="0.21069433" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32826087" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32826087" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32826087" />
       <window_info id="Structure" order="1" sideWeight="0.5021739" side_tool="true" weight="0.24087591" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -708,17 +692,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/Odd.py">
+    <entry file="file://$PROJECT_DIR$/TechnicalCodingExamples/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/examplelist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="166">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="e#647#679#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -729,13 +709,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TechnicalCodingExamples/urls.py">
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/examplelist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <element signature="e#647#679#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/Odd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
