@@ -23,8 +23,23 @@ def additionofmatix(request):
 
 
 def helloworld(request):
-    hello = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/helloworld.py")}
-    return render(request, "PythonTechnicalExamples/helloworld.html", context=hello)
+    hello = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/helloworld/helloworld.py")}
+    return render(request, "PythonTechnicalExamples/helloworld/helloworld.html", context=hello)
+
+
+def helloworld1(request):
+    hello = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/helloworld/helloworld1.py")}
+    return render(request, "PythonTechnicalExamples/helloworld/helloworld.html", context=hello)
+
+
+def helloworld2(request):
+    hello = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/helloworld/helloworld2.py")}
+    return render(request, "PythonTechnicalExamples/helloworld/hello1.html", context=hello)
+
+
+def helloworld3(request):
+    hello = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/helloworld/helloworld3.py")}
+    return render(request, "PythonTechnicalExamples/helloworld/hello2.html", context=hello)
 
 
 def sumofnum(request):
@@ -35,4 +50,14 @@ def sumofnum(request):
 def evenrange(request):
     even = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/even.py")}
     return render(request, "PythonTechnicalExamples/even.html", context=even)
+
+
+def prime(request):
+    prime = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/prime.py")}
+    return render(request, "PythonTechnicalExamples/prime.html", context=prime)
+
+
+def Odd(request):
+    odd = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/Odd.py")}
+    return render(request, "PythonTechnicalExamples/odd.html", context=odd)
 

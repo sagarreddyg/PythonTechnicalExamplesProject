@@ -20,24 +20,22 @@ body{
 
 		}
 .fixed-header{
-      background-color: #f1f1f1;
+
       top: 0;
+      background-color: #f1f1f1;
       position: fixed;
       z-index: 1;
       width: 100%;
-      }
-
-.fixed-footer{
-
-      bottom: 0;
-
       }
 .fixed-footer{
 
             width: 100%;
 
+            background-color: #f1f1f1;
+
+            bottom: 0;
+
             position: fixed;
-            background-image: url("body-1.jpg");
 }
 .bor{
      border: 1px solid Teal;
@@ -59,8 +57,40 @@ body{
     display: table;
     clear: both;
 }
-.back{
+.header {
+    background-color: #f1f1f1;
+    padding: 5px;
+    text-align: left;
+    font-size: 30px;
+}
 
-    background-image: url("body-1.jpg");
-    background-repeat: repeat;
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 5px;
+    height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+    width: 20%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
 }

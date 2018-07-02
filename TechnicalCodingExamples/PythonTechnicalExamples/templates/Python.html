@@ -1,22 +1,19 @@
 {% extends "base.html" %}
 {% block content %}
 
-<header>
-  <h2 style="color:MediumSeaGreen;">Python Examples</h2>
-</header>
-<table>
-   <tr>
-       <td class="bor" width="20%" valign="top">
-           {% include 'examplelist.html' %}
-       </td>
+<div class="header">
+  <h2 style="color:MediumSeaGreen"> Python Examples</h2>
+</div>
 
-     <td width="58%">
-         <article>
+<div class="row">
+  <div class="column side" style="background-color:#aaa;">
+      {% include 'examplelist.html' %}
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
             {% block  content1 %}
 
             {% endblock %}
-         </article>
-     </td>
-    </tr>
-</table>
+  </div>
+  <div class="column side" style="background-color:#ccc;">Addsence</div>
+</div>
 {% endblock %}

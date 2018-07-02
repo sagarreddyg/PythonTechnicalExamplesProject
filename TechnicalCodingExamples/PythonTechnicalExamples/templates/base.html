@@ -5,8 +5,7 @@
     <link rel="stylesheet" href="{% static 'CSS/main.css'%}">
     {% include 'head.html' %}
 </head>
-<body  class="back">
-
+<body>
 <nav class="navbar  mynav" role="navigation" id="navbar">
     <div class="fixed-header">
         <a class= 'navbar-brand mynav' href="{% url 'index' %}" style="color:291B2C;">
@@ -20,18 +19,11 @@
         </ul>
    </div>
 </nav>
-<table>
-   <tr>
-     <td width="58%">
-         <article>
-            {% block  content %}
+<article>
+    {% block  content %}
 
-            {% endblock %}
-         </article>
-     </td>
-    </tr>
-</table>
-
+    {% endblock %}
+</article>
  <div class="fixed-footer">
 
             <div class="container2" >

@@ -19,11 +19,15 @@ from PythonTechnicalExamples import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'python', views.python, name='python'),
+    url(r'python/$', views.python, name='python'),
     url(r'helloworld/$', views.helloworld, name='helloworld'),
+    url(r'helloworld1/$', views.helloworld1, name='helloworld1'),
+    url(r'helloworld2/$', views.helloworld2, name='helloworld2'),
+    url(r'helloworld3/$', views.helloworld3, name='helloworld3'),
     url(r'sum/$', views.sumofnum, name='sum'),
     url(r'evennumbers/$', views.evenrange, name='evennumbers'),
+    url(r'odd/$', views.Odd, name='odd'),
     url(r'additionofmatrix/$', views.additionofmatix, name='additionofmatrix'),
+    url(r'prime/$',views.prime, name='prime'),
     url(r'^admin/', admin.site.urls),
-
 ]

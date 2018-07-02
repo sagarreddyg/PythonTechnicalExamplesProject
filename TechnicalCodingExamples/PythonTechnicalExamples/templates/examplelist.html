@@ -3,36 +3,56 @@
      <ul>
          <li>
              <div class="w3-dropdown-hover">
-                 <button class="w3-button w3-black" style="width: auto">Hello World</button>
+                 <a>Hello World</a>
                  <div class="w3-dropdown-content w3-bar-block w3-border">
-                     <a href="{% url 'helloworld' %}" class="w3-bar-item w3-button">Hello World</a>
+                     <a href="{% url 'helloworld' %}" class="w3-bar-item">Hello World</a>
+                     <a href="{% url 'helloworld1' %}" class="w3-bar-item">Hello World1</a>
+                     <a href="{% url 'helloworld2' %}" class="w3-bar-item">Hello World2</a>
+                     <a href="{% url 'helloworld3' %}" class="w3-bar-item">Hello World3</a>
+                 </div>
+             </div>
+         </li>
+         <li>
+             <div class="w3-dropdown-hover">
+                 <a>Sum Of Numbers</a>
+                 <div class="w3-dropdown-content w3-bar-block w3-border">
+                     <a href="{% url 'sum' %}" class="w3-bar-item ">Sum Of Two Numbers</a>
                      <a href="#" class="w3-bar-item w3-button">Link 2</a>
                  </div>
              </div>
          </li>
          <li>
              <div class="w3-dropdown-hover">
-                 <button class="w3-button w3-black">Sum Of Numbers</button>
+                 <a>Even Numbers</a>
                  <div class="w3-dropdown-content w3-bar-block w3-border">
-                     <a href="{% url 'sum' %}" class="w3-bar-item w3-button">Sum Of Two Numbers</a>
+                     <a href="{% url 'evennumbers' %}" class="w3-bar-item">Even Numbers with in Given Range</a>
+                     <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                 </div>
+             </div>
+         </li>
+          <li>
+             <div class="w3-dropdown-hover">
+                 <a>OddNumber</a>
+                 <div class="w3-dropdown-content w3-bar-block w3-border">
+                     <a href="{% url 'odd' %}" class="w3-bar-item">OddNumber</a>
                      <a href="#" class="w3-bar-item w3-button">Link 2</a>
                  </div>
              </div>
          </li>
          <li>
              <div class="w3-dropdown-hover">
-                 <button class="w3-button w3-black">Even Numbers</button>
+                 <a>Addition Of Matrix</a>
                  <div class="w3-dropdown-content w3-bar-block w3-border">
-                     <a href="{% url 'evennumbers' %}" class="w3-bar-item w3-button">Even Numbers with in Given Range</a>
+                     <a href="{% url 'additionofmatrix' %}" class="w3-bar-item">Addition Of Matrix</a>
                      <a href="#" class="w3-bar-item w3-button">Link 2</a>
                  </div>
              </div>
          </li>
          <li>
              <div class="w3-dropdown-hover">
-                 <button class="w3-button w3-black">Addition Of Matrix</button>
+                 <a>PrimeNumber</a>
                  <div class="w3-dropdown-content w3-bar-block w3-border">
-                     <a href="{% url 'additionofmatrix' %}" class="w3-bar-item w3-button">Addition Of Matrix</a>
+                     <a href="{% url 'prime' %}" class="w3-bar-item">PrimeNumber</a>
                      <a href="#" class="w3-bar-item w3-button">Link 2</a>
                  </div>
              </div>
