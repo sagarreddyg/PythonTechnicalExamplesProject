@@ -1,4 +1,4 @@
-import PrintingNumbersStarFormat as NP
+from PythonTechnicalExamples.PythonPrograms import PrintingNumbersStarFormat as NP
 
 inp = input("Please enter your Number : ")
 for i in range(len(inp)):

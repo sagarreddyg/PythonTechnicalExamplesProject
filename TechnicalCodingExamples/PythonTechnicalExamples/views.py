@@ -7,7 +7,6 @@ def content(str):
     con = fh.read()
     return con
 
-
 def index(request):
     home = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/Add Of Matrices.py")}
     return render(request, "PythonTechnicalExamples/index.html", context=home)
@@ -63,16 +62,79 @@ def sumofnum3(request):
 
 
 def evenrange(request):
-    even = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/even.py")}
-    return render(request, "PythonTechnicalExamples/even.html", context=even)
+    even = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/evennumbers/even4.py")}
+    return render(request, "PythonTechnicalExamples/even/even.html", context=even)
 
 
-def prime(request):
-    prime = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/prime.py")}
-    return render(request, "PythonTechnicalExamples/prime.html", context=prime)
+def even(request):
+    even = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/evennumbers/even2.py")}
+    return render(request, "PythonTechnicalExamples/even/even.html", context=even)
+
+
+def even2(request):
+    even = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/evennumbers/even3.py")}
+    return render(request, "PythonTechnicalExamples/even/even.html", context=even)
+
+
+def even3(request):
+    even = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/evennumbers/even.py")}
+    return render(request, "PythonTechnicalExamples/even/even.html", context=even)
+
+
+def even4(request):
+    even = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/evennumbers/even5.py")}
+    return render(request, "PythonTechnicalExamples/even/even.html", context=even)
 
 
 def Odd(request):
-    odd = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/Odd.py")}
-    return render(request, "PythonTechnicalExamples/odd.html", context=odd)
+    odd = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/oddnumbers/Odd2.py")}
+    return render(request, "PythonTechnicalExamples/Odd/odd.html", context=odd)
 
+
+def Odd1(request):
+    odd = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/oddnumbers/Odd1.py")}
+    return render(request, "PythonTechnicalExamples/Odd/odd.html", context=odd)
+
+
+def Odd2(request):
+    odd = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/oddnumbers/Odd3.py")}
+    return render(request, "PythonTechnicalExamples/Odd/odd.html", context=odd)
+
+
+def Odd3(request):
+    odd = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/oddnumbers/Odd.py")}
+    return render(request, "PythonTechnicalExamples/Odd/odd.html", context=odd)
+
+def Odd4(request):
+    odd = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/oddnumbers/Odd4.py")}
+    return render(request, "PythonTechnicalExamples/Odd/odd.html", context=odd)
+
+
+def prime(request):
+    prime = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/primenumbers/prime1.py")}
+    return render(request, "PythonTechnicalExamples/prime/prime.html", context=prime)
+
+
+def prime1(request):
+    prime = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/primenumbers/prime4.py")}
+    return render(request, "PythonTechnicalExamples/prime/prime.html", context=prime)
+
+
+def prime2(request):
+    prime = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/primenumbers/prime.py")}
+    return render(request, "PythonTechnicalExamples/prime/prime.html", context=prime)
+
+
+def prime3(request):
+    prime = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/primenumbers/prime2.py")}
+    return render(request, "PythonTechnicalExamples/prime/prime.html", context=prime)
+
+
+def feb(request):
+    prime = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/feb/feb1.py")}
+    return render(request, "PythonTechnicalExamples/feb/feb.html", context=prime)
+
+
+def feb1(request):
+    prime = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/feb/feb.py")}
+    return render(request, "PythonTechnicalExamples/feb/feb.html", context=prime)

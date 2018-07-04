@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="header">
+  <h2 style="color:MediumSeaGreen">Python Fibonacci Series Examples</h2>
+</div>
+<div class="row">
+    <div class="column side" style="background-color:#aaa;">
+       <ul>
+           <li><a href="{% url 'feb1' %}" class="w3-bar-item">feb1</a></li>
+     </ul>
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
+            {% block  content2 %}
+
+            {% endblock %}
+  </div>
+    <div class="column side" style="background-color:#ccc;">Addsence</div>
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="header">
+  <h2 style="color:MediumSeaGreen">Python Even Numbers Examples</h2>
+</div>
+<div class="row">
+    <div class="column side" style="background-color:#aaa;">
+       <ul>
+           <li><a href="{% url 'even' %}" class="w3-bar-item">even1</a></li>
+           <li><a href="{% url 'even2' %}" class="w3-bar-item">even2</a></li>
+           <li><a href="{% url 'even3' %}" class="w3-bar-item">even3</a></li>
+           <li><a href="{% url 'even4' %}" class="w3-bar-item">even4</a></li>
+
+     </ul>
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
+            {% block  content2 %}
+
+            {% endblock %}
+  </div>
+    <div class="column side" style="background-color:#ccc;">Addsence</div>
+</div>
+{% endblock %}
