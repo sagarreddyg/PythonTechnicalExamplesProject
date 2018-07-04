@@ -17,8 +17,7 @@ def inputfromuser():
             print("Enter Valid input num1 is smaller than num2")
             num02 = gettinginput2()
         while num01 == num02:
-            print("Please enter different number's")
-            num01 = gettinginput1()
+            print("Please enter different number")
             num02 = gettinginput2()
 
     except ValueError:

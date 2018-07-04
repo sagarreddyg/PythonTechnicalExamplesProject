@@ -1,18 +1,12 @@
 
 def gettinginput1():
-    num1 = int(input("Please enter your starting range Positive and other than Zero to printing Odd number's : "))
-    while num1 <= 0:
-        num1 = gettinginput1()
-    else:
-        return num1
+    num1 = int(input("Please enter your starting range to printing Odd number's : "))
+    return num1
 
 
 def gettinginput2():
     num2 = int(input("Please enter your  ending range more than starting To printing Odd number's : "))
-    while num2 <= 0:
-        num2 = gettinginput2()
-    else:
-        return num2
+    return num2
 
 
 def inputfromuser():

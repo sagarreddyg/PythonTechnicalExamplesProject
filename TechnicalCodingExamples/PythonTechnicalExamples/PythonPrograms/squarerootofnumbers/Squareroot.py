@@ -1,11 +1,8 @@
 def getnum():
     try:
         num = int(input("Please enter your number to find square root : "))
-        if num <= 0:
-            print("Please enter positive number and other than zero")
-            num = getnum()
     except ValueError:
-        print("Please enter valid input")
+        print("Please enter Numbers only ")
         getnum()
     else:
         return num
