@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="header">
+  <h2 style="color:MediumSeaGreen">Python Hello World Examples</h2>
+</div>
+<div class="row">
+    <div class="column side" style="background-color:#aaa;">
+       <ul>
+         <li><a href="{% url 'helloworld1' %}" class="w3-bar-item">Hello World1</a></li>
+         <li><a href="{% url 'helloworld2' %}" class="w3-bar-item">Hello World2</a></li>
+         <li><a href="{% url 'helloworld3' %}" class="w3-bar-item">Hello World3</a></li>
+     </ul>
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
+            {% block  content2 %}
+
+            {% endblock %}
+  </div>
+    <div class="column side" style="background-color:#ccc;">Addsence</div>
+</div>
+{% endblock %}

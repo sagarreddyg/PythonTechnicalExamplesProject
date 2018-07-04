@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="header">
+  <h2 style="color:MediumSeaGreen">Python Sum of Numbers Examples</h2>
+</div>
+<div class="row">
+    <div class="column side" style="background-color:#aaa;">
+       <ul>
+         <li><a href="{% url 'sumofnum1' %}" class="w3-bar-item">Sum Of Two Numbers1</a></li>
+         <li><a href="{% url 'sumofnum2' %}" class="w3-bar-item">Sum Of Two Numbers2</a></li>
+         <li><a href="{% url 'sumofnum3' %}" class="w3-bar-item">Sum Of Two Numbers3</a></li>
+     </ul>
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
+            {% block  content2 %}
+
+            {% endblock %}
+  </div>
+    <div class="column side" style="background-color:#ccc;">Addsence</div>
+</div>
+{% endblock %}

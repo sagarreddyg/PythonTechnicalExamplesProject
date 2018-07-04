@@ -43,8 +43,23 @@ def helloworld3(request):
 
 
 def sumofnum(request):
-    su = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/sum.py")}
-    return render(request, "PythonTechnicalExamples/sumofnum.html", context=su)
+    su = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/sumofNum/sumoftwonumbers.py")}
+    return render(request, "PythonTechnicalExamples/Sumofnum/sumofnum.html", context=su)
+
+
+def sumofnum1(request):
+    su = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/sumofNum/sumofgivennumbers.py")}
+    return render(request, "PythonTechnicalExamples/Sumofnum/sumofnum1.html", context=su)
+
+
+def sumofnum2(request):
+    su = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/sumofNum/sumoftwousergivenNumbers.py")}
+    return render(request, "PythonTechnicalExamples/Sumofnum/sumofnum2.html", context=su)
+
+
+def sumofnum3(request):
+    su = {'insert_me': content("PythonTechnicalExamples/PythonPrograms/sumofNum/sum.py")}
+    return render(request, "PythonTechnicalExamples/Sumofnum/sumofnum3.html", context=su)
 
 
 def evenrange(request):

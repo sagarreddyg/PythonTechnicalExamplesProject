@@ -14,6 +14,7 @@ def gettinginput2():
     else:
         return num2
 
+
 def inputfromuser():
     try:
         num01 = gettinginput1()

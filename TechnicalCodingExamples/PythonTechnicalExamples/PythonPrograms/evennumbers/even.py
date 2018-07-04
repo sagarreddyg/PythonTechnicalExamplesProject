@@ -1,18 +1,12 @@
 # even.py
 def gettinginput1():
-    num1 = int(input("Please enter starting range Positive and other than Zero : "))
-    while num1 <= 0:
-        num1 = gettinginput1()
-    else:
-        return num1
+    num1 = int(input("Please enter starting range : "))
+    return num1
 
 
 def gettinginput2():
     num2 = int(input("Please enter ending range more than starting range : "))
-    while num2 <= 0:
-        num2 = gettinginput2()
-    else:
-        return num2
+    return num2
 
 
 def inputfromuser():
