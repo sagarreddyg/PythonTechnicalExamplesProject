@@ -8,18 +8,10 @@
 <body>
 <nav class="navbar  mynav" role="navigation" id="navbar">
     <div class="fixed-header">
-        <a class= 'navbar-brand mynav' href="{% url 'index' %}" style="color:291B2C;">
-            <i class="material-icons">home</i>
-        </a>
-        <ul class='nav navbar-nav nav-middle'>
-            <li><a href="{% url 'python' %}">Python</a> </li>
-            <li><a href="#">C#</a> </li>
-            <li><a href="#">Java</a> </li>
-            <li><a href="#">C</a></li>
-        </ul>
+            <img src="{% static 'images/logo1.png'%}" alt="logo" style="position: center top">
    </div>
 </nav>
-<article>
+<article class="div1">
     {% block  content %}
 
     {% endblock %}

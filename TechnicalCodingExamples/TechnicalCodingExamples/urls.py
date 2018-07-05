@@ -18,7 +18,7 @@ from django.conf.urls import url
 from PythonTechnicalExamples import views
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    url(r'^$', views.python, name='index'),
     url(r'python/$', views.python, name='python'),
     url(r'helloworld/$', views.helloworld, name='helloworld'),
     url(r'helloworld1/$', views.helloworld1, name='helloworld1'),

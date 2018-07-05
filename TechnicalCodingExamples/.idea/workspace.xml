@@ -11,20 +11,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/CSS/main.css">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
+            <state relative-caret-position="101">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="examplelist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/examplelist.html">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TechnicalCodingExamples/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="81">
+              <caret line="125" column="15" selection-start-line="125" selection-start-column="15" selection-end-line="125" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/CSS/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Python.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/Python.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TechnicalCodingExamples/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding>
+                <element signature="e#647#679#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,12 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/JS/main.js" />
-        <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/helloworldexampleslist.html" />
-        <option value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/urls.py" />
-        <option value="$PROJECT_DIR$/PythonTechnicalExamples/urls.py" />
-        <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/sumofnumberslist.html" />
-        <option value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/even.py" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/evennumbers/even.py" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/Odd.py" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/evennumbers/even1.py" />
@@ -74,7 +106,6 @@
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/evenlist.html" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/oddlist.html" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/primelist.html" />
-        <option value="$PROJECT_DIR$/TechnicalCodingExamples/urls.py" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/feblist.html" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/examplelist.html" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/PythonTechnicalExamples/helloworld/helloworld.html" />
@@ -90,16 +121,23 @@
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/PythonTechnicalExamples/Sumofnum/sumofnum.html" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/views.py" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/PythonTechnicalExamples/aboutpython.html" />
-        <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/base.html" />
         <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/head.html" />
+        <option value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/Add Of Matrices.py" />
+        <option value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/sample.py" />
+        <option value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/additionofmatrix.py" />
+        <option value="$PROJECT_DIR$/TechnicalCodingExamples/urls.py" />
+        <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/Python.html" />
+        <option value="$PROJECT_DIR$/static/CSS/logo.html" />
+        <option value="$PROJECT_DIR$/TechnicalCodingExamples/settings.py" />
+        <option value="$PROJECT_DIR$/PythonTechnicalExamples/templates/base.html" />
         <option value="$PROJECT_DIR$/static/CSS/main.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
-    <option name="y" value="125" />
-    <option name="width" value="1126" />
+    <option name="x" value="45" />
+    <option name="y" value="195" />
+    <option name="width" value="1141" />
     <option name="height" value="544" />
   </component>
   <component name="ProjectView">
@@ -139,6 +177,11 @@
             </path>
             <path>
               <item name="TechnicalCodingExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TechnicalCodingExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="TechnicalCodingExamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TechnicalCodingExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -153,12 +196,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sagar.reddy\Desktop\PythonTechnicalExamplesProject\TechnicalCodingExamples\PythonTechnicalExamples\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sagar.reddy\Desktop\PythonTechnicalExamplesProject\TechnicalCodingExamples\static\CSS" />
       <recent name="C:\Users\sagar.reddy\Desktop\PythonTechnicalExamplesProject\TechnicalCodingExamples\PythonTechnicalExamples\templates\PythonTechnicalExamples\prime" />
       <recent name="C:\Users\sagar.reddy\Desktop\PythonTechnicalExamplesProject\TechnicalCodingExamples\PythonTechnicalExamples\templates\PythonTechnicalExamples\Odd" />
       <recent name="C:\Users\sagar.reddy\Desktop\PythonTechnicalExamplesProject\TechnicalCodingExamples\PythonTechnicalExamples\templates\PythonTechnicalExamples\even" />
       <recent name="C:\Users\sagar.reddy\Desktop\PythonTechnicalExamplesProject\TechnicalCodingExamples\PythonTechnicalExamples\PythonPrograms\squarerootofnumbers" />
-      <recent name="C:\Users\sagar.reddy\Desktop\PythonTechnicalExamplesProject\TechnicalCodingExamples\PythonTechnicalExamples\PythonPrograms\feb" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,25 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Squareroot">
-    <configuration name="Odd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TechnicalCodingExamples" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\sagar.reddy\Desktop\PythonTechnicalExamplesProject\TechnicalCodingExamples\PythonTechnicalExamples\PythonPrograms\oddnumbers\Odd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.additionofmatrix">
     <configuration name="Squareroot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TechnicalCodingExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,7 +256,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="prime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="additionofmatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TechnicalCodingExamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,11 +264,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/primenumbers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/primenumbers/prime.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/additionofmatrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="sample" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TechnicalCodingExamples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/sample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,19 +311,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Odd" />
-      <item itemvalue="Python.prime" />
       <item itemvalue="Python.Squareroot1" />
       <item itemvalue="Python.squareroot2" />
       <item itemvalue="Python.Squareroot" />
+      <item itemvalue="Python.additionofmatrix" />
+      <item itemvalue="Python.sample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.additionofmatrix" />
+        <item itemvalue="Python.sample" />
+        <item itemvalue="Python.Squareroot1" />
         <item itemvalue="Python.Squareroot" />
         <item itemvalue="Python.squareroot2" />
-        <item itemvalue="Python.Squareroot1" />
-        <item itemvalue="Python.prime" />
-        <item itemvalue="Python.Odd" />
       </list>
     </recent_temporary>
   </component>
@@ -295,10 +341,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="125" width="1126" height="544" extended-state="0" />
+    <frame x="45" y="195" width="1141" height="544" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978261" visible="true" weight="0.24264705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978261" visible="true" weight="0.23934723" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
@@ -320,50 +366,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/PythonTechnicalExamples/Sumofnumberslist.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/sumofNum/sumofgivennumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/sumofNum/sumoftwonumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/sumofNum/sumoftwousergivenNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/sumofnumberslist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/evennumbers/even.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/evennumbers/even1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -558,18 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/evenlist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/PythonTechnicalExamples/helloworld/hello1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -696,44 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TechnicalCodingExamples/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding>
-            <element signature="e#647#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/PythonTechnicalExamples/aboutpython.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -744,10 +706,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/additionofmatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/PythonPrograms/Add Of Matrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/evenlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="77" lean-forward="true" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/PythonTechnicalExamples/aboutpython.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechnicalCodingExamples/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#647#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/CSS/logo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/Python.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechnicalCodingExamples/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="125" column="15" selection-start-line="125" selection-start-column="15" selection-end-line="125" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTechnicalExamples/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#ul#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/CSS/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="105" column="30" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
+        <state relative-caret-position="51">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
