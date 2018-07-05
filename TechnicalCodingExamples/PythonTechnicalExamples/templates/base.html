@@ -8,8 +8,9 @@
 <body>
 <nav class="navbar  mynav" role="navigation" id="navbar">
     <div class="fixed-header">
-        <marquee direction="right"> <a href="{% url 'python' %}"> <img src="{% static 'images/logo1.png'%}" alt="logo" style="position: center top"> </a></marquee>
-   </div>
+        <marquee direction="right" onmouseover="this.stop();" onmouseout="this.start();"> <a href="{% url 'python' %}"> <img src="{% static 'images/logo1.png'%}" alt="logo" style="position: center top"> </a></marquee>
+
+    </div>
 </nav>
 <article class="div1">
     {% block  content %}
